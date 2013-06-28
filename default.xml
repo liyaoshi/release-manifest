@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://git.ti.com" name="glsdk"/>
+  <remote fetch="git://git.ti.com" name="ti"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
   <remote fetch="git://arago-project.org/git/projects" name="arago"/>
   
-   <project remote="glsdk"  path="board-support/kernel" name="ti-linux-kernel/ti-linux-3-8-y-kernel" revision="4e8193eb3b7465d7f67cd8c7e6c2ed99dad1a483"/>
-   <project remote="glsdk"  path="board-support/u-boot" name="ti-u-boot/ti-u-boot" revision="ca435c914e069f5b74f05f667e2064784943a0ac"/>
-   <project remote="glsdk"  path="component-sources/libdrm" name="glsdk/libdrm" revision="3cb5405084111193cedb8796d259b56560b088f0"/>
-   <project remote="glsdk"  path="component-sources/libgbm" name="glsdk/libgbm" revision="cb86a2f2cecd41023bf1bf12fbcf11be11220f31"/>
-   <project remote="glsdk"  path="example-applications/kmscube" name="glsdk/kmscube" revision="5a03757c0aa52eff44fb0d8ac0529f8cc18b1da0"/>
+   <project remote="ti"  path="board-support/linux-3.8.13" name="ti-linux-kernel/ti-linux-3-8-y-kernel" revision="4e8193eb3b7465d7f67cd8c7e6c2ed99dad1a483"/>
+   <project remote="ti"  path="board-support/u-boot" name="ti-u-boot/ti-u-boot" revision="ca435c914e069f5b74f05f667e2064784943a0ac"/>
+   <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="5a03757c0aa52eff44fb0d8ac0529f8cc18b1da0"/>
    <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="9cf431d9600df239e87a17f832e1bf6e911f4104"/>
-   <project remote="glsdk"  path="yocto-layers/sources/meta-ti" name="glsdk/meta-ti-glsdk" revision="32ec4417ad9152393f34f27b813714db393972c7"/>
-   <project remote="glsdk"  path="yocto-layers/sources/meta-arago" name="glsdk/meta-arago-glsdk" revision="d210ae090c368f3a6542a9efa42e4c6a65f01c2e"/>
+   <project remote="ti"  path="yocto-layers/sources/meta-ti" name="glsdk/meta-ti-glsdk" revision="32ec4417ad9152393f34f27b813714db393972c7"/>
+   <project remote="ti"  path="yocto-layers/sources/meta-arago" name="glsdk/meta-arago-glsdk" revision="d210ae090c368f3a6542a9efa42e4c6a65f01c2e"/>
    <project remote="oe"     path="yocto-layers/sources/bitbake" name="bitbake" revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"/>
    <project remote="oe"     path="yocto-layers/sources/oe-core" name="openembedded-core" revision="0785489d558c34cacf5cb349949a15e27084efbf"/>
    <project remote="oe"     path="yocto-layers/sources/meta-openembedded" name="meta-openembedded" revision="f00028caf257e386c0f3ae46bd4b3ba53dd0729d"/>
