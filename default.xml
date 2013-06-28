@@ -5,7 +5,7 @@
   <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
   <remote fetch="git://arago-project.org/git/projects" name="arago"/>
   
-   <project remote="ti"  path="board-support/linux-3.8.13" name="ti-linux-kernel/ti-linux-3-8-y-kernel" revision="4e8193eb3b7465d7f67cd8c7e6c2ed99dad1a483"/>
+   <project remote="ti"  path="board-support/linux-3.8.13" name="ti-linux-kernel/ti-linux-3-8-y-kernel" revision="b978b95a855b603f7293fc4415e9ad366f0af754"/>
    <project remote="ti"  path="board-support/ti-u-boot" name="glsdk/glsdk-u-boot" revision="81836e8cc84bd6523d9a4e187965dcd1633c4bc9"/>
    <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="5a03757c0aa52eff44fb0d8ac0529f8cc18b1da0"/>
    <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="9cf431d9600df239e87a17f832e1bf6e911f4104"/>
