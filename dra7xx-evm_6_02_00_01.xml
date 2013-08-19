@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.ti.com" name="ti"/>
+  <remote fetch="git://git.omapzoom.org" name="omapzoom"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="git://arago-project.org/git/projects" name="arago"/>
+  
+   <project remote="ti"  path="." name="glsdk/glsdk" revision="c77f57e7a369b2eb954cc04ce9717f3c3328b143"/>
+   <project remote="omapzoom"  path="board-support/linux" name="ti-linux-kernel/ti-linux-3-8-y-kernel" revision="34ce3fe4640e0817ccc59f516b5c5328f2147468"/>
+   <project remote="ti"  path="board-support/u-boot" name="glsdk/glsdk-u-boot" revision="317da0e9ac822a4be57ad81d51991dd216c49d52"/>
+   <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="5a03757c0aa52eff44fb0d8ac0529f8cc18b1da0"/>
+   <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="1fa01ebd228507269cae4fe5beb8e415378d0419"/>
+   <project remote="arago"  path="yocto-layers/sources/meta-ti" name="meta-ti-glsdk" revision="09c32fdfecea14f85778562deaab499e542b1963"/>
+   <project remote="arago"  path="yocto-layers/sources/meta-arago" name="meta-arago-glsdk" revision="1ceb2231e7c4532478823817a6ff21dadb4fa191"/>
+   <project remote="oe"     path="yocto-layers/sources/bitbake" name="bitbake" revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"/>
+   <project remote="oe"     path="yocto-layers/sources/oe-core" name="openembedded-core" revision="0785489d558c34cacf5cb349949a15e27084efbf"/>
+   <project remote="oe"     path="yocto-layers/sources/meta-openembedded" name="meta-openembedded" revision="f00028caf257e386c0f3ae46bd4b3ba53dd0729d"/>
+   <project remote="linaro" path="yocto-layers/sources/meta-linaro" name="meta-linaro" revision="d0558fa4304592622423582f8b464e1c22cfe6f1"/>
+
+</manifest>
