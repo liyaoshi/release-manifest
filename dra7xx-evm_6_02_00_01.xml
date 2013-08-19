@@ -7,7 +7,7 @@
   <remote fetch="git://arago-project.org/git/projects" name="arago"/>
   
    <project remote="ti"  path="." name="glsdk/glsdk" revision="c77f57e7a369b2eb954cc04ce9717f3c3328b143"/>
-   <project remote="omapzoom"  path="board-support/linux" name="ti-linux-kernel/ti-linux-3-8-y-kernel" revision="34ce3fe4640e0817ccc59f516b5c5328f2147468"/>
+   <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="34ce3fe4640e0817ccc59f516b5c5328f2147468"/>
    <project remote="ti"  path="board-support/u-boot" name="glsdk/glsdk-u-boot" revision="317da0e9ac822a4be57ad81d51991dd216c49d52"/>
    <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="5a03757c0aa52eff44fb0d8ac0529f8cc18b1da0"/>
    <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="1fa01ebd228507269cae4fe5beb8e415378d0419"/>
