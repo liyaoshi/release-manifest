@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.ti.com" name="ti"/>
+  <remote fetch="git://git.omapzoom.org" name="omapzoom"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="git://arago-project.org/git/projects" name="arago"/>
+
+   <project remote="ti"  path="." name="glsdk/glsdk" revision="01d0eb9daccf8bbbcc98f851cc68aadee5584cd5"/>
+   <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="d5cff8e67d155a5b22b09e607e817d807d72130e"/>
+   <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="76447484441a4b8e00840a2bde74e66dbac9e631"/>
+   <project remote="ti"  path="example-applications" name="glsdk/example-applications" revision="2a03c7990e7d3cdc587adb3b01ef3e77d1883a14"/>
+   <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="1e2ff8615ad9eeaf5b70ba83011edb25edd2b1ee"/>
+   <project remote="ti"  path="component-sources/ipc_3_10_00_08" name="ipc/ipcdev" revision="b11251f705f84f32740cd288afe9281e653bd8eb"/>
+   <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="13d3459df2946a17e8292efa66caeb6007f49baf"/>
+   <project remote="arago"  path="yocto-layers/sources/meta-ti" name="meta-ti-glsdk" revision="09be9f49a85fbabc357b0af050e386f78753d2e6"/>
+   <project remote="arago"  path="yocto-layers/sources/meta-arago" name="meta-arago-glsdk" revision="2c39a0e21bce488c80a6a8c13c1871bbdf58b5e4"/>
+   <project remote="oe"     path="yocto-layers/sources/bitbake" name="bitbake" revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"/>
+   <project remote="oe"     path="yocto-layers/sources/oe-core" name="openembedded-core" revision="0785489d558c34cacf5cb349949a15e27084efbf"/>
+   <project remote="oe"     path="yocto-layers/sources/meta-openembedded" name="meta-openembedded" revision="f00028caf257e386c0f3ae46bd4b3ba53dd0729d"/>
+   <project remote="linaro" path="yocto-layers/sources/meta-linaro" name="meta-linaro" revision="d0558fa4304592622423582f8b464e1c22cfe6f1"/>
+
+</manifest>
