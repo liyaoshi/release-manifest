@@ -9,6 +9,7 @@
    <project remote="ti"  path="." name="glsdk/glsdk" revision="fc6028ebcacca67ccf4b297747cc29e2fd327174"/>
    <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="cc16f99176bf083829c028f9af5b8eb560debcc1"/>
    <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="76447484441a4b8e00840a2bde74e66dbac9e631"/>
+   <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="7e084e0452bfaa495d2a9c06c7a420bac35d8d99"/>
    <project remote="ti"  path="example-applications" name="glsdk/example-applications" revision="2a03c7990e7d3cdc587adb3b01ef3e77d1883a14"/>
    <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="1e2ff8615ad9eeaf5b70ba83011edb25edd2b1ee"/>
    <project remote="ti"  path="component-sources/ipc_3_10_00_08" name="ipc/ipcdev" revision="b11251f705f84f32740cd288afe9281e653bd8eb"/>
