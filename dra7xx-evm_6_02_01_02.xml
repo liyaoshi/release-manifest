@@ -12,7 +12,7 @@
    <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="7e084e0452bfaa495d2a9c06c7a420bac35d8d99"/>
    <project remote="ti"  path="example-applications" name="glsdk/example-applications" revision="2a03c7990e7d3cdc587adb3b01ef3e77d1883a14"/>
    <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="1e2ff8615ad9eeaf5b70ba83011edb25edd2b1ee"/>
-   <project remote="ti"  path="component-sources/ipc_3_10_00_08" name="ipc/ipcdev" revision="b11251f705f84f32740cd288afe9281e653bd8eb"/>
+   <project remote="ti"  path="component-sources/ipc_3_20_00_06" name="ipc/ipcdev" revision="fb45164f3336114ed8557fd9e8a08e8b7265d03a"/>
    <project remote="ti"  path="component-sources/dspdce_1_00_00_00" name="glsdk/dspdce" revision="9e05b5f585e8502bcbac516cae35b0194058ece2"/>
    <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="13d3459df2946a17e8292efa66caeb6007f49baf"/>
 
