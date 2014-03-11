@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.ti.com" name="ti"/>
+  <remote fetch="git://git.omapzoom.org" name="omapzoom"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
+  <remote fetch="git://arago-project.org/git/projects" name="arago"/>
+
+   <project remote="ti"  path="." name="glsdk/glsdk" revision="e709101c2bacf6f00542458b06aa84703c18ab8a"/>
+   <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="89927f5573872cada07d07c714e24a71ed6c29c3"/>
+   <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="615522699dbe161871bed14a92c0e6d368907679"/>
+   <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="7e084e0452bfaa495d2a9c06c7a420bac35d8d99"/>
+   <project remote="ti"  path="example-applications" name="glsdk/example-applications" revision="0f3127022f236364496f184dcaa310929c285ff7"/>
+   <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="75548bb361a0f8a367ac53bef5fbbf5953b54381"/>
+   <project remote="ti"  path="component-sources/ipc_3_20_00_06" name="ipc/ipcdev" revision="fb45164f3336114ed8557fd9e8a08e8b7265d03a"/>
+   <project remote="ti"  path="component-sources/dspdce_1_00_00_01" name="glsdk/dspdce" revision="1ad0806c5dfb04fdb6645127c1759ae71974fa41"/>
+   <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="0e5fb52e7f40b5693ee2880a08d7375211d68bd0"/>
+
+</manifest>
