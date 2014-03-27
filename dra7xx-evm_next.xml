@@ -7,9 +7,9 @@
   <remote fetch="git://arago-project.org/git/projects" name="arago"/>
 
    <project remote="ti"  path="." name="glsdk/glsdk" revision="b3de188a29b50d780639c9ade2fe16859e6085d7"/>
-   <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="89927f5573872cada07d07c714e24a71ed6c29c3"/>
-   <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="615522699dbe161871bed14a92c0e6d368907679"/>
-   <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="7e084e0452bfaa495d2a9c06c7a420bac35d8d99"/>
+   <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="dd238fca52fee2493aaf071ad75accefebc71b4b"/>
+   <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="a3ba6a6a06f3da2d6a132abad5515ccc0c0791a3"/>
+   <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="ce8e788072e2f72aaf8c09bdd6a6436bec9ddfb6"/>
    <project remote="ti"  path="example-applications" name="glsdk/example-applications" revision="0f3127022f236364496f184dcaa310929c285ff7"/>
    <project remote="ti"  path="example-applications/kmscube" name="glsdk/kmscube" revision="75548bb361a0f8a367ac53bef5fbbf5953b54381"/>
    <project remote="ti"  path="component-sources/ipc_3_21_00_07" name="ipc/ipcdev" revision="c18fece0c9f0dc76361dc1ee11b7ee2417479847"/>
