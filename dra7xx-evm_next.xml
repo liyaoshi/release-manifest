@@ -6,12 +6,12 @@
   <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
   <remote fetch="git://arago-project.org/git/projects" name="arago"/>
 
-   <project remote="ti"  path="." name="glsdk/glsdk" revision="53236e0ca3d1dff6c11ab99b932fffad8500ced4"/>
+   <project remote="ti"  path="." name="glsdk/glsdk" revision="48657ec957e34e202cdd42d78f0a30b1aff71e71"/>
    <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="b3b72732165975dbf311eada6c52d2e0cdf7137a"/>
    <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="c0cc84270800eb611bc3abf885beb50b361dbe0f"/>
    <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="eec409d9fcd363f1f8217eb7898a96ff9024a05f"/>
    <project remote="ti"  path="component-sources/ipc_3_22_02_11" name="ipc/ipcdev" revision="d8683f8d4897f8b60f8deab2f1d68e1664619676"/>
-   <project remote="ti"  path="component-sources/dspdce_1_00_00_02" name="glsdk/dspdce" revision="6aaa22111c89a6aa02fe15094f0d35fee5b3d2c7"/>
+   <project remote="ti"  path="component-sources/dspdce_1_00_00_02" name="glsdk/dspdce" revision="e16e3ae50def99a778fbcdd640b6e16ff0bf7864"/>
    <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="0cb672f7f62adeb212a8238818781374af379051"/>
 
 </manifest>
