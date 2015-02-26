@@ -12,6 +12,6 @@
    <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="0f3561a47cf7a1b968fb64446a0be10abc9a15d5"/>
    <project remote="ti"  path="component-sources/ipc_3_30_03_14" name="ipc/ipcdev" revision="ff0ca0e3943ab67be47673bfc77f40c53daac078"/>
    <project remote="ti"  path="component-sources/dspdce_1_00_00_05" name="glsdk/dspdce" revision="f31a8da5da8949953c80d5eb9fbdc481c98c87e5"/>
-   <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="afc44fad44261677c799558ffd35f4908556bce0"/>
+   <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="37f062ed6c1c43453bbca15f46852c47ce82223f"/>
 
 </manifest>
