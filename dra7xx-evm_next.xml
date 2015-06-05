@@ -10,7 +10,7 @@
    <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="2865b60202ac4dc9598e6dcf0e6a76381c5d7696"/>
    <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="b89e568d9c356d756501b16caad5734970ec25d1"/>
    <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="0f3561a47cf7a1b968fb64446a0be10abc9a15d5"/>
-   <project remote="ti"  path="component-sources/ipc_3_36_00_07" name="ipc/ipcdev" revision="244f03118c0cd9b438b4c7d9b5dd01aa26480654"/>
+   <project remote="ti"  path="component-sources/ipc_3_36_01_11" name="ipc/ipcdev" revision="2a4256289d462d93a7e00a6ffb10bd46081a9500"/>
    <project remote="ti"  path="component-sources/dspdce_1_00_00_05" name="glsdk/dspdce" revision="f31a8da5da8949953c80d5eb9fbdc481c98c87e5"/>
    <project remote="arago"  path="yocto-layers" name="oe-layersetup" revision="37f062ed6c1c43453bbca15f46852c47ce82223f"/>
 
