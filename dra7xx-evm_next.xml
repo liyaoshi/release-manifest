@@ -6,7 +6,7 @@
   <remote fetch="git://git.linaro.org/openembedded" name="linaro"/>
   <remote fetch="git://arago-project.org/git/projects" name="arago"/>
 
-   <project remote="ti"  path="." name="glsdk/glsdk" revision="9441a9a4d9002453df8e8de619ff0303ad946cb3"/>
+   <project remote="ti"  path="." name="glsdk/glsdk" revision="296891ea04383b898b4330944b6ffe82740125b9"/>
    <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="4c385320c23781cf03d4e2a5caea0f5f1f33bfa7"/>
    <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="c56da94325d1251525078f79acefb4d347a494a2"/>
    <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="430673f78b79eccdf308a6bbfb524209b485d2cc"/>
