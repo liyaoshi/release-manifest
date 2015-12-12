@@ -7,7 +7,7 @@
   <remote fetch="git://arago-project.org/git/projects" name="arago"/>
 
    <project remote="ti"  path="." name="glsdk/glsdk" revision="51485be00206e8c0e2177657aaea848f8bce8da9"/>
-   <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="ddfa43844a3ef6f110fca7c1d99b52f072830d92"/>
+   <project remote="omapzoom"  path="board-support/linux" name="kernel/omap" revision="84bfe0e20dd2593212cba68edfbd49a2b23b8975"/>
    <project remote="omapzoom"  path="board-support/u-boot" name="repo/u-boot" revision="32166d3e764799cb27e4cf9c5e75e4019d1062e1"/>
    <project remote="ti"  path="board-support/external-linux-kernel-modules/omap5-sgx-ddk-linux" name="graphics/omap5-sgx-ddk-linux" revision="03991033fcad439901955d54de24368c216041f2"/>
    <project remote="ti"  path="component-sources/ipc_3_40_00_06" name="ipc/ipcdev" revision="01324c18d069770860c72d67fe0e63288805ae2b"/>
